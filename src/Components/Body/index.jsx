@@ -87,9 +87,10 @@ const Body = () => {
                 <p className="text-lg font-sans leading-relaxed">Únete a nuestra comunidad y accede a todo nuestro contenido en redes sociales que te ayudará a mejorar tus finanzas personales. ¡Es hora de tomar el control de tu dinero y construir un futuro sólido!</p>
                 <Link
                     to="/contactenos"
-                    className="inline-block bg-gray-400 text-white px-8 py-4 mt-6 rounded-2xl text-lg font-semibold font-poppins transform hover:scale-105 transition-transform duration-300 ease-in-out">
-                    Contactenos
+                    className="inline-block bg-gray-400 text-white px-6 py-3 mt-6 rounded-2xl text-base font-semibold font-poppins transform hover:scale-105 transition-transform duration-300 ease-in-out whitespace-nowrap">
+                    Contáctenos
                 </Link>
+
             </div>
 
             {/* Sección de Testimonios */}
