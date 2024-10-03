@@ -31,8 +31,11 @@ const Contactenos = () => {
                 </button>
             </form>
 
+            <h1 className="text-4xl font-bold mt-7 text-stone-600">Para acceder al contenido completo <br/> de <span className="text-cyan-600">Educación Financiera</span>, síguenos en:</h1>
+
             {/* Sección de Redes Sociales */}
             <div className="mt-10 flex space-x-6">
+
                 <a href="https://wa.me/123456789" target="_blank" rel="noopener noreferrer" className="transform hover:scale-105 transition-transform duration-300 ease-in-out">
                     <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/whatsapp--v1.png" alt="WhatsApp" />
                 </a> 
