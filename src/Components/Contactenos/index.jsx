@@ -26,7 +26,7 @@ const Contactenos = () => {
                         className="w-full p-3 border border-gray-300 rounded-2xl mt-1 focus:outline-none focus:ring-2 focus:ring-black"
                     ></textarea>
                 </div>
-                <button type="submit" className="w-full bg-blue-500 text-white py-3 rounded-2xl hover:bg-blue-600 transition-colors ">
+                <button type="button" onClick={() => alert(`Gracias por contactarnos, su mensaje ha sido enviado con éxito. \n \nPdt. Este mensaje es fake, no se envió nada. :) `)} className="w-full bg-blue-500 text-white py-3 rounded-2xl hover:bg-blue-600 transition-colors " >
                     Enviar
                 </button>
             </form>
