@@ -9,7 +9,7 @@ const Navbar = () => {
         <Link
         to={"/"}
         >
-        <img src="/educacion-financiera.png" alt="logo" className='w-36 lg:w-auto max-w-full h-auto object-contain'/>
+        <img src="/educacion-financiera.png" alt="logo" className='w-36 lg:w-auto h-24 lg:h-28'/>
         </Link>
       <h1 className="text-white font-poppins text-4xl lg:text-5xl text-center lg:m-3">Educación Financiera <br /><strong className='text-black'>Para Todos</strong></h1>
       </div>
